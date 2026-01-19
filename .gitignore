@@ -1,0 +1,91 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===============================
+# Deep Learning / ML
+# ===============================
+# Model weights & checkpoints
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+# *.pt
+*.pb
+*.onnx
+*.tflite
+
+# TensorFlow logs & checkpoints
+logs/
+checkpoints/
+tf_logs/
+tensorboard_logs/
+
+# PyTorch
+runs/
+lightning_logs/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===============================
+# Data
+# ===============================
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+*.csv
+*.tsv
+*.parquet
+*.npz
+*.npy
+
+# ===============================
+# Outputs / Results
+# ===============================
+outputs/
+results/
+predictions/
+experiments/
+
+# ===============================
+# Caches
+# ===============================
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# ===============================
+# OS
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Logs
+# ===============================
+# *.*
